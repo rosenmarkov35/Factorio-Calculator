@@ -1,0 +1,26 @@
+{
+  "stoneFurnace": {
+    "displayName": "Stone Furnace",
+    "craftingSpeed": [1, 1.3, 1.6, 1.9, 2.5],
+    "energyConsumption": 0,
+    "moduleSlots": 0,
+    "baseProductivity": 0,
+    "imageURL": "https://wiki.factorio.com/images/Stone_furnace.png"
+  },
+  "steelFurnace": {
+    "displayName": "Steel Furnace",
+    "craftingSpeed": [2, 2.6, 3.2, 3.8, 5],
+    "energyConsumption": 90000,
+    "moduleSlots": 0,
+    "baseProductivity": 0,
+    "imageURL": "https://wiki.factorio.com/images/Steel_furnace.png"
+  },
+  "electricFurnace": {
+    "displayName": "Electric Furnace",
+    "craftingSpeed": [2, 2.6, 3.2, 3.8, 5],
+    "energyConsumption": 186000,
+    "moduleSlots": 2,
+    "baseProductivity": 0,
+    "imageURL": "https://wiki.factorio.com/images/Electric_furnace.png"
+  }
+}

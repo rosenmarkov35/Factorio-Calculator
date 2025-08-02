@@ -1,0 +1,26 @@
+{
+  "burnerMiningDrill": {
+    "displayName": "Burner Mining Drill",
+    "craftingSpeed": [0.25, 0.25, 0.25, 0.25, 0.25],
+    "energyConsumption": 0,
+    "moduleSlots": 0,
+    "baseProductivity": 0,
+    "imageURL": "https://wiki.factorio.com/images/Burner_mining_drill.png"
+  },
+  "electricMiningDrill": {
+    "displayName": "Electric Mining Drill",
+    "craftingSpeed": [0.5, 0.5, 0.5, 0.5, 0.5],
+    "energyConsumption": 90000,
+    "moduleSlots": 3,
+    "baseProductivity": 0,
+    "imageURL": "https://wiki.factorio.com/images/Electric_mining_drill.png"
+  },
+  "bigMiningDrill": {
+    "displayName": "Big Mining Drill",
+    "craftingSpeed": [2.5, 2.5, 2.5, 2.5, 2.5],
+    "energyConsumption": 300000,
+    "moduleSlots": 4,
+    "baseProductivity": 0,
+    "imageURL": "https://wiki.factorio.com/images/Big_mining_drill.png"
+  }
+}

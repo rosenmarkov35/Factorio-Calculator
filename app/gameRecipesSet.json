@@ -1,0 +1,36 @@
+{
+  "recipeCastingIron": {
+    "recipeName": "Casting Iron (Recipe)",
+    "craftingTime": 3.2,
+    "outputQuantity": "2",
+    "ingredients": {"moltenIron": 20},
+    "allowedDrills": [""],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Casting_iron.png"
+  },
+  "recipeBiosulfur": {
+    "recipeName": "Biosulfur (Recipe)",
+    "craftingTime": 2,
+    "outputQuantity": "2",
+    "ingredients": {"spoilage": 5, "bioflux": 1},
+    "allowedDrills": [""],
+    "allowedMachines": ["biochamber"],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Biosulfur.png"
+  },
+  "recipeAdvancedCarbonicAsteroidCrushing": {
+    "recipeName": "Advanced carbonic asteroid crushing (Recipe)",
+    "craftingTime": 5,
+    "outputQuantity": "2",
+    "ingredients": {"carbonAsteroidChunk": 1},
+    "allowedDrills": [""],
+    "allowedMachines": ["biochamber"],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Advanced_carbonic_asteroid_crushing.png"
+    
+  }
+}

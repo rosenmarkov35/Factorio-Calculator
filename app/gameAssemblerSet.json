@@ -1,0 +1,66 @@
+{
+  "assemblingMachine1": {
+    "displayName": "Assembling Machine 1",
+    "craftingSpeed": [0.5, 0.65, 0.8, 0.95, 1.25],
+    "energyConsumption": 77500,
+    "moduleSlots": 0,
+    "baseProductivity": 0,
+    "imageURL": "https://wiki.factorio.com/images/Assembling_machine_1.png"
+  },
+  "assemblingMachine2": {
+    "displayName": "Assembling Machine 2",
+    "craftingSpeed": [0.75, 0.975, 1.2, 1, 425, 1.875],
+    "energyConsumption": 155000,
+    "moduleSlots": 2,
+    "baseProductivity": 0,
+    "imageURL": "https://wiki.factorio.com/images/Assembling_machine_2.png"
+  },
+  "assemblingMachine3": {
+    "displayName": "Assembling Machine 3",
+    "craftingSpeed": [1.25, 1.625, 2, 2.375, 3.125],
+    "energyConsumption": 388000,
+    "moduleSlots": 4,
+    "baseProductivity": 0,
+    "imageURL": "https://wiki.factorio.com/images/Assembling_machine_3.png"
+  },
+  "chemicalPlant": {
+    "displayName": "Chemical Plant",
+    "craftingSpeed": [1, 1.3, 1.6, 1.9, 2.5],
+    "energyConsumption": 217000,
+    "moduleSlots": 3,
+    "baseProductivity": 0,
+    "imageURL": "https://wiki.factorio.com/images/Chemical_plant.png"
+  },
+  "biochamber": {
+    "displayName": "Biochamber",
+    "craftingSpeed": [2, 2.6, 3.2, 3.8, 5],
+    "energyConsumption": 0,
+    "moduleSlots": 4,
+    "baseProductivity": 0.5,
+    "imageURL": "https://wiki.factorio.com/images/Biochamber.png"
+  },
+  "electromagneticPlant": {
+    "displayName": "Electromagnetic Plant",
+    "craftingSpeed": [2, 2.6, 3.2, 3.8, 5],
+    "energyConsumption": 2070000,
+    "moduleSlots": 5,
+    "baseProductivity": 0.5,
+    "imageURL": "https://wiki.factorio.com/images/Electromagnetic_plant.png"
+  },
+  "cryogenicPlant": {
+    "displayName": "Cryogenic Plant",
+    "craftingSpeed": [2, 2.6, 3.2, 3.8, 5],
+    "energyConsumption": 1550000,
+    "moduleSlots": 8,
+    "baseProductivity": 0,
+    "imageURL": "https://wiki.factorio.com/images/Cryogenic_plant.png"
+  },
+  "foundry": {
+    "displayName": "Foundry",
+    "craftingSpeed": [4, 5.2, 6.4, 7.6, 10],
+    "energyConsumption": 2580000,
+    "moduleSlots": 4,
+    "baseProductivity": 0.5,
+    "imageURL": "https://wiki.factorio.com/images/Foundry.png"
+  }
+}

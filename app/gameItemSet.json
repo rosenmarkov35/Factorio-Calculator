@@ -1,0 +1,2261 @@
+{
+  "woodenChest": {
+    "itemName": "Wooden chest",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": { "wood": 2 },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Wooden_chest.png"
+  },
+  "ironChest": {
+    "itemName": "Iron chest",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": { "ironPlate": 8 },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Iron_chest.png"
+  },
+
+  "steelChest": {
+    "itemName": "Steel chest",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": { "steelPlate": 8 },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Steel_chest.png"
+  },
+  "storageTank": {
+    "itemName": "Storage tank",
+    "craftingTime": 3,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": { "ironPlate": 20, "steelPlate": 5 },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Storage_tank.png"
+  },
+
+  "transportBelt": {
+    "itemName": "Transport belt",
+    "craftingTime": 0.5,
+    "outputQuantity": 2,
+    "recipes": [""],
+    "ingredients": { "ironPlate": 1, "ironGearWheel": 1 },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "foundry",
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Transport_belt.png"
+  },
+  "fastTransportBelt": {
+    "itemName": "Fast transport belt",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": { "ironGearWheel": 5, "transportBelt": 1 },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "foundry",
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Fast_transport_belt.png"
+  },
+
+  "expressTransportBelt": {
+    "itemName": "Express transport belt",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "ironGearWheel": 10,
+      "fastTransportBelt": 1,
+      "lubricant": 20
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "foundry",
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Express_transport_belt.png"
+  },
+  "turboTransportBelt": {
+    "itemName": "Turbo transport belt",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "tungstenPlate": 5,
+      "expressTransportBelt": 1,
+      "lubricant": 20
+    },
+    "allowedDrills": [""],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Turbo_transport_belt.png"
+  },
+
+  "undergroundBelt": {
+    "itemName": "Underground belt",
+    "craftingTime": 1,
+    "outputQuantity": 2,
+    "recipes": [""],
+    "ingredients": { "ironPlate": 10, "transportBelt": 5 },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "foundry",
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Underground_belt.png"
+  },
+  "fastUndergroundBelt": {
+    "itemName": "Fast underground belt",
+    "craftingTime": 2,
+    "outputQuantity": 2,
+    "recipes": [""],
+    "ingredients": { "ironGearWheel": 40, "undergroundBelt": 2 },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "foundry",
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Fast_underground_belt.png"
+  },
+  "expressUndergroundBelt": {
+    "itemName": "Express underground belt",
+    "craftingTime": 2,
+    "outputQuantity": 2,
+    "recipes": [""],
+    "ingredients": {
+      "ironGearWheel": 80,
+      "fastUndergroundBelt": 2,
+      "lubricant": 40
+    },
+    "allowedDrills": [""],
+    "allowedMachines": ["foundry", "assemblingMachine2", "assemblingMachine3"],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Express_underground_belt.png"
+  },
+  "turboUndergroundBelt": {
+    "itemName": "Turbo underground belt",
+    "craftingTime": 2,
+    "outputQuantity": 2,
+    "recipes": [""],
+    "ingredients": {
+      "tungstenPlate": 40,
+      "expressUndergroundBelt": 2,
+      "lubricant": 40
+    },
+    "allowedDrills": [""],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Turbo_underground_belt.png"
+  },
+  "splitter": {
+    "itemName": "Splitter",
+    "craftingTime": 1,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "ironPlate": 5,
+      "electronicCircuit": 5,
+      "transportBelt": 4
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "foundry",
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Splitter.png"
+  },
+  "fastSplitter": {
+    "itemName": "Fast splitter",
+    "craftingTime": 2,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "ironGearWheel": 10,
+      "electronicCircuit": 10,
+      "splitter": 1
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "foundry",
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Fast_splitter.png"
+  },
+  "expressSplitter": {
+    "itemName": "Express splitter",
+    "craftingTime": 2,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "ironGearWheel": 10,
+      "advancedCircuit": 10,
+      "fastSplitter": 1,
+      "lubricant": 80
+    },
+    "allowedDrills": [""],
+    "allowedMachines": ["foundry", "assemblingMachine2", "assemblingMachine3"],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Express_splitter.png"
+  },
+  "turboSplitter": {
+    "itemName": "Turbo splitter",
+    "craftingTime": 2,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "processingUnit": 2,
+      "tungstenPlate": 15,
+      "expressSplitter": 1,
+      "lubricant": 80
+    },
+    "allowedDrills": [""],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Turbo_splitter.png"
+  },
+
+  "inserter": {
+    "itemName": "Inserter",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "ingredients": {
+      "ironPlate": 1,
+      "ironGearWheel": 1,
+      "electronicCircuit": 1
+    },
+
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Inserter.png"
+  },
+  "long-handedInserter": {
+    "itemName": "Long-handed inserter",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "ingredients": {
+      "ironPlate": 1,
+      "ironGearWheel": 1,
+      "inserter": 1
+    },
+
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Long-handed_inserter.png"
+  },
+  "fastInserter": {
+    "itemName": "Fast inserter",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "ingredients": {
+      "ironPlate": 2,
+      "electronicCircuit": 2,
+      "inserter": 1
+    },
+
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Fast_inserter.png"
+  },
+  "bulkInserter": {
+    "itemName": "Bulk inserter",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "ingredients": {
+      "ironGearWheel": 15,
+      "electronicCircuit": 15,
+      "advancedCircuit": 1,
+      "fastInserter": 1
+    },
+
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Bulk_inserter.png"
+  },
+  "burnerInserter": {
+    "itemName": "Burner inserter",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "ingredients": {
+      "ironPlate": 1,
+      "ironGearWheel": 1
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Burner_inserter.png"
+  },
+  "stackInserter": {
+    "itemName": "Stack inserter",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "ingredients": {
+      "processingUnit": 1,
+      "jelly": 10,
+      "carbonFiber": 2,
+      "bulkInserter": 1
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Stack_inserter.png"
+  },
+  "smallElectricPole": {
+    "itemName": "Small electric pole",
+    "craftingTime": 0.5,
+    "outputQuantity": 2,
+    "ingredients": {
+      "wood": 1,
+      "copperCable": 2
+    },
+
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3",
+      "electromagneticPlant"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Small_electric_pole.png"
+  },
+  "mediumElectricPole": {
+    "itemName": "Medium electric pole",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "ingredients": {
+      "steelPlate": 2,
+      "ironStick": 4,
+      "copperCable": 2
+    },
+
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3",
+      "electromagneticPlant"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Medium_electric_pole.png"
+  },
+  "bigElectricPole": {
+    "itemName": "Big electric pole",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "ingredients": {
+      "steelPlate": 5,
+      "ironStick": 8,
+      "copperCable": 4
+    },
+
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3",
+      "electromagneticPlant"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Big_electric_pole.png"
+  },
+  "substation": {
+    "itemName": "Substation",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "ingredients": {
+      "steelPlate": 10,
+      "copperCable": 6,
+      "advancedCircuit": 5
+    },
+
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3",
+      "electromagneticPlant"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Substation.png"
+  },
+  "pipe": {
+    "itemName": "Pipe",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "recipes": ["recipeCastingPipe"],
+    "ingredients": { "ironPlate": 1 },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Pipe.png"
+  },
+  "pipeToGround": {
+    "itemName": "Pipe to ground",
+    "craftingTime": 0.5,
+    "outputQuantity": 2,
+    "recipes": ["recipeCastingPipeToGround"],
+    "ingredients": { "ironPlate": 5, "pipe": 10 },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Pipe_to_ground.png"
+  },
+  "pump": {
+    "itemName": "Pump",
+    "craftingTime": 2,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": { "steelPlate": 1, "engineUnit": 1, "pipe": 1 },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Pump.png"
+  },
+  "rail": {
+    "itemName": "Rail",
+    "craftingTime": 0.5,
+    "outputQuantity": 2,
+    "recipes": [""],
+    "ingredients": { "stone": 1, "steelPlate": 1, "ironStick": 1 },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Straight_rail.png"
+  },
+  "railRamp": {
+    "itemName": "Rail ramp",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": { "steelPlate": 10, "rail": 8, "refinedConcrete": 100 },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Rail_ramp.png"
+  },
+  "railSupport": {
+    "itemName": "Rail support",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": { "steelPlate": 10, "refinedConcrete": 20 },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Rail_support.png"
+  },
+  "trainStop": {
+    "itemName": "Train stop",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "ironPlate": 6,
+      "steelPlate": 3,
+      "ironStick": 6,
+      "electronicCircuit": 5
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Train_stop.png"
+  },
+  "railSignal": {
+    "itemName": "Rail signal",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": { "ironPlate": 5, "electronicCircuit": 1 },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Rail_signal.png"
+  },
+  "railChainSignal": {
+    "itemName": "Rail chain signal",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": { "ironPlate": 5, "electronicCircuit": 1 },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Rail_chain_signal.png"
+  },
+  "locomotive": {
+    "itemName": "Locomotive",
+    "craftingTime": 4,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "steelPlate": 30,
+      "electronicCircuit": 10,
+      "engineUnit": 20
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Locomotive.png"
+  },
+  "cargoWagon": {
+    "itemName": "Cargo wagon",
+    "craftingTime": 1,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "ironPlate": 20,
+      "steelPlate": 20,
+      "ironGearWheel": 10
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Cargo_wagon.png"
+  },
+  "fluidWagon": {
+    "itemName": "Fluid Wagon",
+    "craftingTime": 1.5,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "steelPlate": 16,
+      "ironGearWheel": 10,
+      "storageTank": 1,
+      "pipe": 8
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Fluid_wagon.png"
+  },
+  "artilleryWagon": {
+    "itemName": "Artillery wagon",
+    "craftingTime": 4,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "ironGearWheel": 40,
+      "processingUnit": 10,
+      "engineUnit": 60,
+      "tungstenPlate": 60,
+      "refinedConcrete": 60
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Artillery_wagon.png"
+  },
+  "car": {
+    "itemName": "Car",
+    "craftingTime": 2,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "ironPlate": 20,
+      "steelPlate": 5,
+      "engineUnit": 8
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Car.png"
+  },
+  "tank": {
+    "itemName": "Tank",
+    "craftingTime": 5,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "steelPlate": 50,
+      "ironGearWheel": 15,
+      "advancedCircuit": 10,
+      "engineUnit": 32
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Tank.png"
+  },
+  "spidertron": {
+    "itemName": "Spidertron",
+    "craftingTime": 10,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "rawFish": 1,
+      "portableFissionReactor": 2,
+      "exoskeleton": 4,
+      "radar": 2,
+      "rocketTurret": 1
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Spidertron.png"
+  },
+  "logisticRobot": {
+    "itemName": "Logistic robot",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "advancedCircuit": 2,
+      "flyingRobotFrame": 1
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Logistic_robot.png"
+  },
+  "constructionRobot": {
+    "itemName": "Construction robot",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "electronicCircuit": 2,
+      "flyingRobotFrame": 1
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Construction_robot.png"
+  },
+  "activeProviderChest": {
+    "itemName": "Active provider chest",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "electronicCircuit": 3,
+      "advancedCircuit": 1,
+      "steelChest": 1
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Active_provider_chest.png"
+  },
+  "passiveProviderChest": {
+    "itemName": "Passive provider chest",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "electronicCircuit": 3,
+      "advancedCircuit": 1,
+      "steelChest": 1
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Passive_provider_chest.png"
+  },
+  "storageChest": {
+    "itemName": "Storage chest",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "electronicCircuit": 3,
+      "advancedCircuit": 1,
+      "steelChest": 1
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Storage_chest.png"
+  },
+  "bufferChest": {
+    "itemName": "Buffer chest",
+    "craftingTime": 10,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "electronicCircuit": 3,
+      "advancedCircuit": 1,
+      "steelChest": 1
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Buffer_chest.png"
+  },
+  "requesterChest": {
+    "itemName": "Requester chest",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "electronicCircuit": 3,
+      "advancedCircuit": 1,
+      "steelChest": 1
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Requester_chest.png"
+  },
+  "roboport": {
+    "itemName": "Roboport",
+    "craftingTime": 5,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "steelPlate": 45,
+      "ironGearWheel": 45,
+      "advancedCircuit": 45
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Roboport.png"
+  },
+  "lamp": {
+    "itemName": "Lamp",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "ironPlate": 1,
+      "copperCable": 3,
+      "electronicCircuit": 1
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Lamp.png"
+  },
+  "arithmeticCombinator": {
+    "itemName": "Arithmetic combinator",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "copperCable": 5,
+      "electronicCircuit": 5
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Arithmetic_combinator.png"
+  },
+  "deciderCombinator": {
+    "itemName": "Decider combinator",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "copperCable": 5,
+      "electronicCircuit": 5
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Decider_combinator.png"
+  },
+  "selectorCombinator": {
+    "itemName": "Selector combinator",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "advancedCircuit": 2,
+      "deciderCombinator": 5
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Selector_combinator.png"
+  },
+  "constantCombinator": {
+    "itemName": "Constant combinator",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "copperCable": 5,
+      "electronicCircuit": 2
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Constant_combinator.png"
+  },
+  "powerSwitch": {
+    "itemName": "Power switch",
+    "craftingTime": 2,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "ironPlate": 5,
+      "copperCable": 5,
+      "electronicCircuit": 2
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Power_switch.png"
+  },
+  "programmableSpeaker": {
+    "itemName": "Programmable speaker",
+    "craftingTime": 2,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "ironPlate": 3,
+      "ironStick": 4,
+      "copperCable": 5,
+      "electronicCircuit": 4
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Programmable_speaker.png"
+  },
+  "displayPanel": {
+    "itemName": "Display panel",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "ironPlate": 1,
+      "electronicCircuit": 1
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Display_panel.png"
+  },
+  "stoneBrick": {
+    "itemName": "Stone brick",
+    "craftingTime": 3.2,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "stone": 2
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [""],
+    "allowedSmelters": ["stoneFurnace", "steelFurnace", "electricFurnace"],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Stone_brick.png"
+  },
+  "concrete": {
+    "itemName": "Concrete",
+    "craftingTime": 10,
+    "outputQuantity": 10,
+    "recipes": ["recipeConcreteFromMoltenIron", "recipeScrapRecycling"],
+    "ingredients": {
+      "ironOre": 1,
+      "stoneBrick": 5,
+      "water": 100
+    },
+    "allowedDrills": [""],
+    "allowedMachines": ["assemblingMachine2", "assemblingMachine3"],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Concrete.png"
+  },
+  "hazardConcrete": {
+    "itemName": "Hazard concrete",
+    "craftingTime": 0.25,
+    "outputQuantity": 10,
+    "recipes": [""],
+    "ingredients": {
+      "concrete": 10
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Hazard_concrete.png"
+  },
+  "refinedConcrete": {
+    "itemName": "Refined concrete",
+    "craftingTime": 15,
+    "outputQuantity": 10,
+    "recipes": [""],
+    "ingredients": {
+      "steelPlate": 1,
+      "ironStick": 8,
+      "concrete": 25,
+      "water": 100
+    },
+    "allowedDrills": [""],
+    "allowedMachines": ["assemblingMachine2", "assemblingMachine3"],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Refined_concrete.png"
+  },
+  "refinedHazardConcrete": {
+    "itemName": "Refined hazard concrete",
+    "craftingTime": 0.25,
+    "outputQuantity": 10,
+    "recipes": [""],
+    "ingredients": {
+      "refinedConcrete": 10
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Refined_hazard_concrete.png"
+  },
+  "landfill": {
+    "itemName": "Landfill",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "stone": 50
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Landfill.png"
+  },
+  "artificialYumakoSoil": {
+    "itemName": "Artificial Yumako soil",
+    "craftingTime": 2,
+    "outputQuantity": 10,
+    "recipes": [""],
+    "ingredients": {
+      "yumakoSeed": 2,
+      "nutrients": 50,
+      "landfill": 5
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Artificial_yumako_soil.png"
+  },
+  "overgrowthYumakoSoil": {
+    "itemName": "Overgrowth Yumako soil",
+    "craftingTime": 10,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "yumakoSeed": 5,
+      "spoilage": 50,
+      "biterEgg": 10,
+      "artificialYumakoSoil": 2,
+      "water": 100
+    },
+    "allowedDrills": [""],
+    "allowedMachines": ["assemblingMachine2", "assemblingMachine3"],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Overgrowth_yumako_soil.png"
+  },
+  "artificialJellynutSoil": {
+    "itemName": "Artificial jellynut soil",
+    "craftingTime": 2,
+    "outputQuantity": 10,
+    "recipes": [""],
+    "ingredients": {
+      "jellynutSeed": 2,
+      "nutrients": 50,
+      "landfill": 5
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Artificial_jellynut_soil.png"
+  },
+  "overgrowthJellynutSoil": {
+    "itemName": "Overgrowth jellynut soil",
+    "craftingTime": 10,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "jellynutSeed": 5,
+      "spoilage": 50,
+      "biterEgg": 10,
+      "artificalJellynutSoil": 2,
+      "water": 100
+    },
+    "allowedDrills": [""],
+    "allowedMachines": ["assemblingMachine2", "assemblingMachine3"],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Overgrowth_jellynut_soil.png"
+  },
+  "icePlatform": {
+    "itemName": "Ice platform",
+    "craftingTime": 30,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "ice": 50,
+      "ammonia": 400
+    },
+    "allowedDrills": [""],
+    "allowedMachines": ["assemblingMachine2", "assemblingMachine3"],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Ice_platform.png"
+  },
+  "foundation": {
+    "itemName": "Foundation",
+    "craftingTime": 30,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "stone": 20,
+      "tungstenPlate": 4,
+      "carbonFiber": 4,
+      "lithiumPlate": 4,
+      "fluoroketoneCold": 20
+    },
+    "allowedDrills": [""],
+    "allowedMachines": ["assemblingMachine2", "assemblingMachine3"],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Foundation.png"
+  },
+  "cliffExplosives": {
+    "itemName": "Cliff explosives",
+    "craftingTime": 8,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "explosives": 10,
+      "barrel": 1,
+      "calcite": 10,
+      "grenade": 1
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Cliff_explosives.png"
+  },
+  "repairPack": {
+    "itemName": "Repair pack",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "ironGearWheel": 2,
+      "electronicCircuit": 2
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Repair_pack.png"
+  },
+  "boiler": {
+    "itemName": "Boiler",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "pipe": 4,
+      "stoneFurnace": 1
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Boiler.png"
+  },
+  "steamEngine": {
+    "itemName": "Steam engine",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "ironPlate": 10,
+      "ironGearWheel": 8,
+      "pipe": 5
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Steam_engine.png"
+  },
+  "solarPanel": {
+    "itemName": "Solar panel",
+    "craftingTime": 10,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "copperPlate": 5,
+      "steelPlate": 5,
+      "electronicCircuit": 15
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3",
+      "electromagneticPlant"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Solar_panel.png"
+  },
+  "accumulator": {
+    "itemName": "Accumulator",
+    "craftingTime": 10,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "ironPlate": 2,
+      "battery": 5
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3",
+      "electromagneticPlant"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Accumulator.png"
+  },
+  "nuclearReactor": {
+    "itemName": "Nuclear reactor",
+    "craftingTime": 8,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "copperPlate": 500,
+      "steelPlate": 500,
+      "advancedCircuit": 500,
+      "concrete": 500
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Nuclear_reactor.png"
+  },
+  "heatPipe": {
+    "itemName": "Heat pipe",
+    "craftingTime": 1,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "copperPlate": 20,
+      "steelPlate": 10
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Heat_pipe.png"
+  },
+  "heatExchanger": {
+    "itemName": "Heat exchanger",
+    "craftingTime": 3,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "copperPlate": 100,
+      "steelPlate": 10,
+      "pipe": 10
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Heat_exchanger.png"
+  },
+  "steamTurbine": {
+    "itemName": "Steam turbine",
+    "craftingTime": 3,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "copperPlate": 50,
+      "ironGearWheel": 50,
+      "pipe": 20
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Steam_turbine.png"
+  },
+  "fusionReactor": {
+    "itemName": "Fusion reactor",
+    "craftingTime": 60,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "tungstenPlate": 200,
+      "superconductor": 200,
+      "quantumProcessor": 250
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "cryogenicPlant"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Fusion_reactor.png"
+  },
+  "fusionGenerator": {
+    "itemName": "Fusion generator",
+    "craftingTime": 30,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "tungstenPlate": 100,
+      "superconductor": 100,
+      "quantumProcessor": 50
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "cryogenicPlant"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Fusion_generator.png"
+  },
+  "burnerMiningDrill": {
+    "itemName": "Burner mining drill",
+    "craftingTime": 2,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "ironPlate": 3,
+      "ironGearWheel": 3,
+      "stoneFurnace": 1
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Burner_mining_drill.png"
+  },
+  "electricMiningDrill": {
+    "itemName": "Electric mining drill",
+    "craftingTime": 2,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "ironPlate": 10,
+      "ironGearWheel": 5,
+      "electronicCircuit": 3
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Electric_mining_drill.png"
+  },
+  "bigMiningDrill": {
+    "itemName": "Big mining drill",
+    "craftingTime": 30,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "advancedCircuit": 10,
+      "electricEngineUnit": 10,
+      "tungstenCarbide": 20,
+      "electricMiningDrill": 1,
+      "moltenIron": 200
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "foundry"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Big_mining_drill.png"
+  },
+  "offshorePump": {
+    "itemName": "Offshore pump",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "ironGearWheel": 2,
+      "pipe": 3
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Offshore_pump.png"
+  },
+  "pumpjack": {
+    "itemName": "Pumpjack",
+    "craftingTime": 5,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "steelPlate": 5,
+      "ironGearWheel": 10,
+      "electronicCircuit": 5,
+      "pipe": 10
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Pumpjack.png"
+  },
+  "stoneFurnace": {
+    "itemName": "Stone furnace",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "stone": 5
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Stone_furnace.png"
+  },
+  "steelFurnace": {
+    "itemName": "Steel furnace",
+    "craftingTime": 3,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "steelPlate": 6,
+      "stoneBrick": 10
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Steel_furnace.png"
+  },
+  "electricFurnace": {
+    "itemName": "Electric furnace",
+    "craftingTime": 5,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "steelPlate": 10,
+      "advancedCircuit": 5,
+      "stoneBrick": 10
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Electric_furnace.png"
+  },
+  "foundry": {
+    "itemName": "Foundry",
+    "craftingTime": 10,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "steelPlate": 50,
+      "electronicCircuit": 30,
+      "tungstenCarbide": 50,
+      "refinedConcrete": 20,
+      "lubricant": 20
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "foundry",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Foundry.png"
+  },
+  "recycler": {
+    "itemName": "Recycler",
+    "craftingTime": 3,
+    "outputQuantity": 1,
+    "recipes": [""],
+    "ingredients": {
+      "steelPlate": 20,
+      "ironGearWheel": 40,
+      "processingUnit": 6,
+      "concrete": 20
+    },
+    "allowedDrills": [""],
+    "allowedMachines": [
+      "assemblingMachine1",
+      "assemblingMachine2",
+      "assemblingMachine3"
+    ],
+    "allowedSmelters": [""],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Recycler.png"
+  },
+  "ironPlate": {
+    "itemName": "Iron plate",
+    "craftingTime": 3.2,
+    "outputQuantity": 1,
+    "recipes": ["recipeCastingIron"],
+    "ingredients": { "ironOre": 1 },
+    "allowedDrills": [""],
+    "allowedMachines": [""],
+    "allowedSmelters": ["stoneFurnace", "steelFurnace", "electricFurnace"],
+    "craftingCategory": "smelting",
+    "imageURL": "https://wiki.factorio.com/images/Iron_plate.png"
+  },
+  "copperPlate": {
+    "itemName": "Copper Plate",
+    "craftingTime": 3.2,
+    "outputQuantity": 1,
+    "recipes": [],
+    "ingredients": {},
+    "allowedDrills": [""],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": ["stoneFurnace", "steelFurnace", "electricFurnace"],
+    "craftingCategory": "smelting",
+    "imageURL": "https://wiki.factorio.com/images/Copper_plate.png"
+  },
+  "wood": {
+    "itemName": "Wood",
+    "craftingTime": 0,
+    "outputQuantity": 1,
+    "recipes": [],
+    "ingredients": {},
+    "allowedDrills": [""],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": ["stoneFurnace", "steelFurnace", "electricFurnace"],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Wood.png"
+  },
+  "stone": {
+    "itemName": "Stone",
+    "craftingTime": 0,
+    "outputQuantity": 1,
+    "recipes": [],
+    "ingredients": {},
+    "allowedDrills": [
+      "burnerMiningDrill",
+      "electricMiningDrill",
+      "bigMiningDrill"
+    ],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": ["stoneFurnace", "steelFurnace", "electricFurnace"],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Stone.png"
+  },
+  "coal": {
+    "itemName": "Coal",
+    "craftingTime": 0,
+    "outputQuantity": 1,
+    "recipes": [],
+    "ingredients": {},
+    "allowedDrills": [
+      "burnerMiningDrill",
+      "electricMiningDrill",
+      "bigMiningDrill"
+    ],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": ["stoneFurnace", "steelFurnace", "electricFurnace"],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Coal.png"
+  },
+  "ironOre": {
+    "itemName": "Iron ore",
+    "craftingTime": 0,
+    "outputQuantity": 1,
+    "recipes": [],
+    "ingredients": {},
+    "allowedDrills": [
+      "burnerMiningDrill",
+      "electricMiningDrill",
+      "bigMiningDrill"
+    ],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": ["stoneFurnace", "steelFurnace", "electricFurnace"],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Iron_ore.png"
+  },
+  "copperOre": {
+    "itemName": "Copper ore",
+    "craftingTime": 0,
+    "outputQuantity": 1,
+    "recipes": [],
+    "ingredients": {},
+    "allowedDrills": [
+      "burnerMiningDrill",
+      "electricMiningDrill",
+      "bigMiningDrill"
+    ],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": ["stoneFurnace", "steelFurnace", "electricFurnace"],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Copper_ore.png"
+  },
+  "uraniumOre": {
+    "itemName": "Uranium ore",
+    "craftingTime": 0,
+    "outputQuantity": 1,
+    "recipes": [],
+    "ingredients": {},
+    "allowedDrills": ["electricMiningDrill"],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": ["stoneFurnace", "steelFurnace", "electricFurnace"],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Uranium_ore.png"
+  },
+  "rawFish": {
+    "itemName": "Raw fish",
+    "craftingTime": 0,
+    "outputQuantity": 1,
+    "recipes": [],
+    "ingredients": {},
+    "allowedDrills": [""],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": ["stoneFurnace", "steelFurnace", "electricFurnace"],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Raw_fish.png"
+  },
+  "ice": {
+    "itemName": "Ice",
+    "craftingTime": 0,
+    "outputQuantity": 1,
+    "recipes": [],
+    "ingredients": {},
+    "allowedDrills": [""],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": ["stoneFurnace", "steelFurnace", "electricFurnace"],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Ice.png"
+  },
+  "steelPlate": {
+    "itemName": "Steel Plate",
+    "craftingTime": 16,
+    "outputQuantity": 1,
+    "recipes": [],
+    "ingredients": {"ironPlate": 5},
+    "allowedDrills": [""],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": ["stoneFurnace", "steelFurnace", "electricFurnace"],
+    "craftingCategory": "smelting",
+    "imageURL": "https://wiki.factorio.com/images/Steel_plate.png"
+  },
+  "solidFuel": {
+    "itemName": "Solid fuel",
+    "craftingTime": 0,
+    "outputQuantity": 1,
+    "recipes": [],
+    "ingredients": {},
+    "allowedDrills": [""],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": ["stoneFurnace", "steelFurnace", "electricFurnace"],
+    "craftingCategory": "chemical",
+    "imageURL": "https://wiki.factorio.com/images/Solid_fuel.png"
+  },
+  "plasticBar": {
+    "itemName": "Plastic Bar",
+    "craftingTime": 1,
+    "outputQuantity": 1,
+    "recipes": [],
+    "ingredients": {},
+    "allowedDrills": [""],
+    "allowedMachines": ["chemicalPlant", "cryogenicPlant"],
+    "allowedSmelters": ["stoneFurnace", "steelFurnace", "electricFurnace"],
+    "craftingCategory": "chemical",
+    "imageURL": "https://wiki.factorio.com/images/Plastic_bar.png"
+  },
+  "sulfur": {
+    "itemName": "Sulfur",
+    "craftingTime": 1,
+    "outputQuantity": 1,
+    "recipes": ["recipeBiosulfur", "recipeAdvancedCarbonicAsteroidCrushing"],
+    "ingredients": {},
+    "allowedDrills": [""],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": ["stoneFurnace", "steelFurnace", "electricFurnace"],
+    "craftingCategory": "chemical",
+    "imageURL": "https://wiki.factorio.com/images/Sulfur.png"
+  },
+  "battery": {
+    "itemName": "Battery",
+    "craftingTime": 4,
+    "outputQuantity": 1,
+    "recipes": [],
+    "ingredients": { "copperPlate": 1, "ironPlate": 1, "sulfuricAcid": 20 },
+    "allowedDrills": [""],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": ["stoneFurnace", "steelFurnace", "electricFurnace"],
+    "craftingCategory": "chemical",
+    "imageURL": "https://wiki.factorio.com/images/Battery.png"
+  },
+  "explosives": {
+    "itemName": "Explosives",
+    "craftingTime": 4,
+    "outputQuantity": 1,
+    "recipes": [],
+    "ingredients": {},
+    "allowedDrills": [""],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": ["stoneFurnace", "steelFurnace", "electricFurnace"],
+    "craftingCategory": "chemical",
+    "imageURL": "https://wiki.factorio.com/images/Explosives.png"
+  },
+  "carbon": {
+    "itemName": "Carbon",
+    "craftingTime": 1,
+    "outputQuantity": 1,
+    "recipes": [],
+    "ingredients": {},
+    "allowedDrills": [""],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": ["stoneFurnace", "steelFurnace", "electricFurnace"],
+    "craftingCategory": "chemical",
+    "imageURL": "https://wiki.factorio.com/images/Carbon.png"
+  },
+  "waterBarrel": {
+    "itemName": "Water barrel",
+    "craftingTime": 0.2,
+    "outputQuantity": 1,
+    "recipes": [],
+    "ingredients": {},
+    "allowedDrills": [""],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": ["stoneFurnace", "steelFurnace", "electricFurnace"],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Water_barrel.png"
+  },
+  "crudeOilBarrel": {
+    "itemName": "Crude oil barrel",
+    "craftingTime": 0.2,
+    "outputQuantity": 1,
+    "recipes": [],
+    "ingredients": {},
+    "allowedDrills": [""],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": ["stoneFurnace", "steelFurnace", "electricFurnace"],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Crude_oil_barrel.png"
+  },
+  "petroleumGasBarrel": {
+    "itemName": "Petroleum gas barrel",
+    "craftingTime": 0.2,
+    "outputQuantity": 1,
+    "recipes": [],
+    "ingredients": {},
+    "allowedDrills": [""],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": ["stoneFurnace", "steelFurnace", "electricFurnace"],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Petroleum_gas_barrel.png"
+  },
+  "lightOilBarrel": {
+    "itemName": "Light oil barrel",
+    "craftingTime": 0.2,
+    "outputQuantity": 1,
+    "recipes": [],
+    "ingredients": {},
+    "allowedDrills": [""],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": ["stoneFurnace", "steelFurnace", "electricFurnace"],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Light_oil_barrel.png"
+  },
+  "heavyOilBarrel": {
+    "itemName": "Heavy oil barrel",
+    "craftingTime": 0.2,
+    "outputQuantity": 1,
+    "recipes": [],
+    "ingredients": {},
+    "allowedDrills": [""],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": ["stoneFurnace", "steelFurnace", "electricFurnace"],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Heavy_oil_barrel.png"
+  },
+  "lubricantBarrel": {
+    "itemName": "Lubricant barrel",
+    "craftingTime": 0.2,
+    "outputQuantity": 1,
+    "recipes": [],
+    "ingredients": {},
+    "allowedDrills": [""],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": ["stoneFurnace", "steelFurnace", "electricFurnace"],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Lubricant_barrel.png"
+  },
+  "sulfuricAcidBarrel": {
+    "itemName": "Sulfuric Acid Barrel",
+    "craftingTime": 0.2,
+    "outputQuantity": 1,
+    "recipes": [],
+    "ingredients": {},
+    "allowedDrills": [""],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": ["stoneFurnace", "steelFurnace", "electricFurnace"],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Sulfuric_acid_barrel.png"
+  },
+  "sulfuricAcid": {
+    "itemName": "Sulfuric Acid",
+    "craftingTime": 1,
+    "outputQuantity": 50,
+    "recipes": [],
+    "ingredients": { "ironPlate": 1, "sulfur": 5, "water": 100 },
+    "allowedDrills": [""],
+    "allowedMachines": ["chemicalPlant"],
+    "allowedSmelters": [""],
+    "craftingCategory": "chemical",
+    "imageURL": "https://wiki.factorio.com/images/Sulfuric_acid.png"
+  },
+  "fluoroketone(Hot)Barrel": {
+    "itemName": "Fluoroketone (Hot) Barrel",
+    "craftingTime": 0.2,
+    "outputQuantity": 1,
+    "recipes": [],
+    "ingredients": {},
+    "allowedDrills": [""],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": ["stoneFurnace", "steelFurnace", "electricFurnace"],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Fluoroketone_(hot)_barrel.png"
+  },
+  "fluoroketone(Cold)Barrel": {
+    "itemName": "Fluoroketone (Cold) Barrel",
+    "craftingTime": 0.2,
+    "outputQuantity": 1,
+    "recipes": [],
+    "ingredients": {},
+    "allowedDrills": [""],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": ["stoneFurnace", "steelFurnace", "electricFurnace"],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Fluoroketone_(cold)_barrel.png"
+  },
+  "ironGearWheel": {
+    "itemName": "Iron gear wheel",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "recipes": [],
+    "ingredients": {},
+    "allowedDrills": [""],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": ["stoneFurnace", "steelFurnace", "electricFurnace"],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Iron_gear_wheel.png"
+  },
+  "ironStick": {
+    "itemName": "Iron stick",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "recipes": [],
+    "ingredients": {},
+    "allowedDrills": [""],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": ["stoneFurnace", "steelFurnace", "electricFurnace"],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Iron_stick.png"
+  },
+  "copperCable": {
+    "itemName": "Copper cable",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "recipes": [],
+    "ingredients": {},
+    "allowedDrills": [""],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": ["stoneFurnace", "steelFurnace", "electricFurnace"],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Copper_cable.png"
+  },
+  "barrel": {
+    "itemName": "Barrel",
+    "craftingTime": 1,
+    "outputQuantity": 1,
+    "recipes": [],
+    "ingredients": {},
+    "allowedDrills": [""],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": ["stoneFurnace", "steelFurnace", "electricFurnace"],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Barrel.png"
+  },
+  "electronicCircuit": {
+    "itemName": "Electronic circuit",
+    "craftingTime": 0.5,
+    "outputQuantity": 1,
+    "recipes": [],
+    "ingredients": {},
+    "allowedDrills": [""],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": ["stoneFurnace", "steelFurnace", "electricFurnace"],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Electronic_circuit.png"
+  },
+  "advancedCircuit": {
+    "itemName": "Advanced circuit",
+    "craftingTime": 6,
+    "outputQuantity": 1,
+    "recipes": [],
+    "ingredients": {},
+    "allowedDrills": [""],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": ["stoneFurnace", "steelFurnace", "electricFurnace"],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Advanced_circuit.png"
+  },
+  "processingUnit": {
+    "itemName": "Processing unit",
+    "craftingTime": 10,
+    "outputQuantity": 1,
+    "recipes": [],
+    "ingredients": {},
+    "allowedDrills": [""],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": ["stoneFurnace", "steelFurnace", "electricFurnace"],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Processing_unit.png"
+  },
+  "engineUnit": {
+    "itemName": "Engine unit",
+    "craftingTime": 10,
+    "outputQuantity": 1,
+    "recipes": [],
+    "ingredients": {},
+    "allowedDrills": [""],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": ["stoneFurnace", "steelFurnace", "electricFurnace"],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Engine_unit.png"
+  },
+  "electricEngineUnit": {
+    "itemName": "Electric engine unit",
+    "craftingTime": 10,
+    "outputQuantity": 1,
+    "recipes": [],
+    "ingredients": {},
+    "allowedDrills": [""],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": ["stoneFurnace", "steelFurnace", "electricFurnace"],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Electric_engine_unit.png"
+  },
+  "flyingRobotFrame": {
+    "itemName": "Flying robot frame",
+    "craftingTime": 20,
+    "outputQuantity": 1,
+    "recipes": [],
+    "ingredients": {},
+    "allowedDrills": [""],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": ["stoneFurnace", "steelFurnace", "electricFurnace"],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Flying_robot_frame.png"
+  },
+  "lowDensityStructure": {
+    "itemName": "Low density structure",
+    "craftingTime": 15,
+    "outputQuantity": 1,
+    "recipes": [],
+    "ingredients": {},
+    "allowedDrills": [""],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": ["stoneFurnace", "steelFurnace", "electricFurnace"],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Low_density_structure.png"
+  },
+  "rocketFuel": {
+    "itemName": "Rocket fuel",
+    "craftingTime": 15,
+    "outputQuantity": 1,
+    "recipes": [],
+    "ingredients": {},
+    "allowedDrills": [""],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": ["stoneFurnace", "steelFurnace", "electricFurnace"],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Rocket_fuel.png"
+  },
+  "rocketPart": {
+    "itemName": "Rocket part",
+    "craftingTime": 0,
+    "outputQuantity": 1,
+    "recipes": [],
+    "ingredients": {},
+    "allowedDrills": [""],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": ["stoneFurnace", "steelFurnace", "electricFurnace"],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Rocket_part.png"
+  },
+  "uranium-235": {
+    "itemName": "Uranium-235",
+    "craftingTime": 0,
+    "outputQuantity": 1,
+    "recipes": [],
+    "ingredients": {},
+    "allowedDrills": [""],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": ["stoneFurnace", "steelFurnace", "electricFurnace"],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Uranium-235.png"
+  },
+  "uranium-238": {
+    "itemName": "Uranium-238",
+    "craftingTime": 0,
+    "outputQuantity": 1,
+    "recipes": [],
+    "ingredients": {},
+    "allowedDrills": [""],
+    "allowedMachines": ["foundry"],
+    "allowedSmelters": ["stoneFurnace", "steelFurnace", "electricFurnace"],
+    "craftingCategory": "assembling",
+    "imageURL": "https://wiki.factorio.com/images/Uranium-238.png"
+  }
+}
