@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { useProperties } from "../context/PropertiesContext";
 import { motion } from "motion/react";
 
@@ -13,6 +14,7 @@ function IngredientNode({
   const subIngredients = gameItemSet[ingredientKey]?.ingredients;
   const assemblerSet = require("../gameAssemblerSet.json");
   const { assemblerSelected } = useProperties();
+  const [ ingredientAssembler, setIngredientAssembler ] = useState(ingredient?.allowedMachines || []);
 
   return (
     <>
